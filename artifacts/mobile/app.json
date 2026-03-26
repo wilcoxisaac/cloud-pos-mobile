@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Cloud POS",
+    "slug": "mobile",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "mobile",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0C2074"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cloudpos.mobile",
+      "buildNumber": "3",
+      "entitlements": {
+        "com.apple.developer.nfc.readersession.formats": ["TAG"]
+      }
+    },
+    "android": {
+      "package": "com.cloudpos.mobile",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser",
+      [
+        "react-native-nfc-manager",
+        {
+          "nfcPermission": "Allow Cloud POS to use NFC to accept contactless card payments",
+          "selectIdentifiers": [
+            "A0000000031010",
+            "A0000000032010",
+            "A0000000033010",
+            "A0000000041010",
+            "A0000000043060",
+            "A00000002501",
+            "A0000001523010",
+            "A0000000651010"
+          ],
+          "includeNdefEntitlement": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
