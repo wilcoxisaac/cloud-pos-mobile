@@ -1,0 +1,154 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "U.S.BankCircular-Regular",
+      "role": "body"
+    },
+    {
+      "family": "U.S.BankCircular-Light",
+      "role": "body"
+    },
+    {
+      "family": "U.S.BankCircular-Bold",
+      "role": "heading"
+    },
+    {
+      "family": "U.S.BankCircular-Medium",
+      "role": "body"
+    },
+    {
+      "family": "Arial",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#0C2074",
+    "accent": "#0072C4",
+    "background": "#F2F4F5",
+    "textPrimary": "#0072C4",
+    "link": "#0072C4"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "U.S.BankCircular-Regular",
+      "heading": "U.S.BankCircular-Bold"
+    },
+    "fontStacks": {
+      "heading": [
+        "U.S.BankCircular-Bold"
+      ],
+      "body": [
+        "U.S.BankCircular-Light"
+      ],
+      "paragraph": [
+        "U.S.BankCircular-Regular"
+      ]
+    },
+    "fontSizes": {
+      "h1": "48px",
+      "h2": "32px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "4px"
+  },
+  "components": {
+    "input": {
+      "background": "#FFFFFF",
+      "textColor": "#000000",
+      "borderColor": "#7F7F84",
+      "borderRadius": "4px",
+      "borderRadiusCorners": {
+        "topLeft": "4px",
+        "topRight": "4px",
+        "bottomRight": "4px",
+        "bottomLeft": "4px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#0072C4",
+      "textColor": "#FFFFFF",
+      "borderColor": "#0072C4",
+      "borderRadius": "4px",
+      "borderRadiusCorners": {
+        "topLeft": "4px",
+        "topRight": "4px",
+        "bottomRight": "4px",
+        "bottomLeft": "4px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#F2F4F5",
+      "textColor": "#000000",
+      "borderRadius": "0px",
+      "borderRadiusCorners": {
+        "topLeft": "0px",
+        "topRight": "0px",
+        "bottomRight": "0px",
+        "bottomLeft": "0px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.svg",
+    "favicon": null,
+    "ogImage": "/content/dam/elavon/en-us/refresh/images/solutions/cafe-payment-using-talech-register.jpg",
+    "logoHref": "File saved at: attached_assets/logoHref.html",
+    "logoAlt": "Elavon logo"
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Selected #0 because it is visible, located in the header, and has an alt text matching the brand 'Elavon'. It is the most prominent logo candidate.",
+    "confidence": 0.95,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 1,
+      "text": "Read more",
+      "reasoning": "Button #1 uses the vibrant brand color #0072C4, which is a strong indicator of a primary CTA. It also has the class 'primary', reinforcing its role as the main call-to-action."
+    },
+    "secondary": {
+      "index": 0,
+      "text": "Read more",
+      "reasoning": "Button #0 has a more muted background color (#F2F4F5) and lacks the 'primary' class, making it suitable as a secondary button."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "businesses seeking payment processing solutions"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": 0,
+        "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, and has an alt text matching the brand 'Elavon'. It is the most prominent logo candidate.",
+        "confidence": 0.95
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}
