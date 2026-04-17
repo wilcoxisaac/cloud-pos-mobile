@@ -1,0 +1,14 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "H38LAioRgehNq-s7MfzJe"
+uri = "file://artifacts/mobile/RELEASE_NOTES.md"
+type = "text"
+title = "Cloud POS v2.0.0 Release Notes"
+
+[[outputs]]
+id = "zPowXjxYAwlV5ziYRSImG"
+uri = "file://docs/Cloud-POS-Mobile-Capabilities.pdf"
+type = "pdf"
+title = "Cloud POS Mobile — Product Capabilities Document v2"
